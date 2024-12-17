@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1112.0850                               -->
+<workbook original-version='18.1' source-build='2024.3.1 (20243.24.1112.0850)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000' inline='true' name='federated.1gjvn531aj17dp15wosuq00548vu' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000' name='textscan.0vqiquj1oemid818dpleg0yb2g95'>
+            <connection class='textscan' directory='C:/Arnab Learning/Tableau' filename='P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0vqiquj1oemid818dpleg0yb2g95' name='P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv' table='[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Area Type' ordinal='0' />
+            <column datatype='string' name='Area' ordinal='1' />
+            <column datatype='string' name='NAICS' ordinal='2' />
+            <column datatype='string' name='NAICS Title' ordinal='3' />
+            <column datatype='integer' name='Year' ordinal='4' />
+            <column datatype='integer' name='Establishments' ordinal='5' />
+            <column datatype='integer' name='Average Employment' ordinal='6' />
+            <column datatype='real' name='Total Wage' ordinal='7' />
+            <column datatype='real' name='Annual Average Salary                                                                                                          ' ordinal='8' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Area Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Area Type]</local-name>
+            <parent-name>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv]</parent-name>
+            <remote-alias>Area Type</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Area</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Area]</local-name>
+            <parent-name>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv]</parent-name>
+            <remote-alias>Area</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NAICS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NAICS]</local-name>
+            <parent-name>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv]</parent-name>
+            <remote-alias>NAICS</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NAICS Title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NAICS Title]</local-name>
+            <parent-name>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv]</parent-name>
+            <remote-alias>NAICS Title</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Establishments</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Establishments]</local-name>
+            <parent-name>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv]</parent-name>
+            <remote-alias>Establishments</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average Employment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Average Employment]</local-name>
+            <parent-name>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv]</parent-name>
+            <remote-alias>Average Employment</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Wage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Wage]</local-name>
+            <parent-name>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv]</parent-name>
+            <remote-alias>Total Wage</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual Average Salary                                                                                                          </remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Annual Average Salary                                                                                                          ]</local-name>
+            <parent-name>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv]</parent-name>
+            <remote-alias>Annual Average Salary                                                                                                          </remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Annual Average Salary' datatype='real' name='[Annual Average Salary                                                                                                          ]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Area Type]' role='dimension' type='nominal' />
+      <column caption='County' datatype='string' name='[Area]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column datatype='integer' hidden='true' name='[Average Employment]' role='measure' type='quantitative' />
+      <column caption='Levels' datatype='integer' name='[Calculation_884957353014054913]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='LEN([NAICS])' />
+      </column>
+      <column datatype='integer' hidden='true' name='[Establishments]' role='measure' type='quantitative' />
+      <column caption='Industry' datatype='string' name='[NAICS Title]' role='dimension' type='nominal' />
+      <column caption='Naics' datatype='string' default-role='measure' default-type='quantitative' name='[NAICS]' role='dimension' type='nominal' />
+      <column datatype='real' hidden='true' name='[Total Wage]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <column caption='P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv' datatype='table' name='[__tableau_internal_object_id__].[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv_5583A0286EFB4DF2AF50D8B6190731E2]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='10000' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Area Type' />
+        <field-sort-custom-order field='Area' />
+        <field-sort-custom-order field='NAICS' />
+        <field-sort-custom-order field='Calculation_884957353014054913' />
+        <field-sort-custom-order field='NAICS Title' />
+        <field-sort-custom-order field='Year' />
+        <field-sort-custom-order field='Establishments' />
+        <field-sort-custom-order field='Average Employment' />
+        <field-sort-custom-order field='Total Wage' />
+        <field-sort-custom-order field='Annual Average Salary                                                                                                          ' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <filter class='categorical' column='[Area Type]' filter-group='2'>
+        <groupfilter function='member' level='[Area Type]' member='&quot;County&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='quantitative' column='[Calculation_884957353014054913]' filter-group='2' included-values='in-range'>
+        <min>2</min>
+        <max>2</max>
+      </filter>
+      <object-graph>
+        <objects>
+          <object caption='P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv' id='P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv_5583A0286EFB4DF2AF50D8B6190731E2'>
+            <properties context=''>
+              <relation connection='textscan.0vqiquj1oemid818dpleg0yb2g95' name='P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv' table='[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Area Type' ordinal='0' />
+                  <column datatype='string' name='Area' ordinal='1' />
+                  <column datatype='string' name='NAICS' ordinal='2' />
+                  <column datatype='string' name='NAICS Title' ordinal='3' />
+                  <column datatype='integer' name='Year' ordinal='4' />
+                  <column datatype='integer' name='Establishments' ordinal='5' />
+                  <column datatype='integer' name='Average Employment' ordinal='6' />
+                  <column datatype='real' name='Total Wage' ordinal='7' />
+                  <column datatype='real' name='Annual Average Salary                                                                                                          ' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C946CDF0-267B-48A8-B68C-7E63CF8216EA}' />
+    </worksheet>
+    <worksheet name='Step and Jump Line'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000' name='federated.1gjvn531aj17dp15wosuq00548vu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gjvn531aj17dp15wosuq00548vu'>
+            <column caption='Annual Average Salary' datatype='real' name='[Annual Average Salary                                                                                                          ]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Annual Average Salary                                                                                                          ]' derivation='Avg' name='[avg:Annual Average Salary                                                                                                          :qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='line-interpolation' value='step' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1gjvn531aj17dp15wosuq00548vu].[avg:Annual Average Salary                                                                                                          :qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='line-interpolation' value='step' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1gjvn531aj17dp15wosuq00548vu].[avg:Annual Average Salary                                                                                                          :qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='line-interpolation' value='jump' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1gjvn531aj17dp15wosuq00548vu].[avg:Annual Average Salary                                                                                                          :qk] + [federated.1gjvn531aj17dp15wosuq00548vu].[avg:Annual Average Salary                                                                                                          :qk])</rows>
+        <cols>[federated.1gjvn531aj17dp15wosuq00548vu].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{12679B84-F1EA-42D5-A2D5-29A1D01765C4}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Step and Jump Line'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B5A3EE16-8917-45BB-9324-B1AA5DCD3A52}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='30'>
+            <card type='columns' />
+          </strip>
+          <strip size='30'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2A50A3BE-7EC6-4930-9841-24A2BFFCBA6D}' />
+    </window>
+  </windows>
+</workbook>
